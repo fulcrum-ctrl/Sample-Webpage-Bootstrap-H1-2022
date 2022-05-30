@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #2a607c;
+    color: #ffffff;
+}
+.navbar-brand {
+    display: block;
+}
+
+.seo {
+    color: #d9dcd6;
+}
+
+.nav-item .nav-link {
+    float: right;
+}
+
+.nav-link {
+    color: #d9dcd6;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.content-item img {
+    max-height: 200px;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefits {
+    background-color:gray;
+}
+
+.content {
+    background-color: blue;
+}
+
+.content-item {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
