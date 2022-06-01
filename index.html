@@ -3,8 +3,14 @@
 <html>
     <head>
         <meta charset="UTF-8" lang="en-US">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Setting the viewport to make your website look good on all devices -->
+        <!-- Sets initial display width as device width, initial scaling as 1.0 (zoom) -->
+        <meta name="keywords" content="Horiseon, Bootstrap 5.0, Refactor">
+        <meta name="description" content="Sample webpage developed using Bootstrap 5.0">
+        <meta name="author" content="fulcrum-ctrl">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <Title>H1 BootStrap</Title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
         <!-- CDN Link for Bootstrap -->
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -35,19 +41,20 @@
                 </div>
             </div>
         </nav>
-        <!--  -->
+        <!-- img-fluid makes image responsive -->
         <div>
             <img src="./assets/images/digital-marketing-meeting.jpg" class="img-fluid" alt="Digital Marketing Meeting">
         </div>
         <br>
-        <div class="container-fluid justify-content-center">
+        <!--  -->
+        <div class="container-fluid">
             <div class="row">
-                <main class="content col-lg-9">
+                <main class="content col-md-10">
                     <!-- Added alt text for images -->
                     <!-- Used Bootstrap grid system to place elements properly. -->
                     <section class="content-item row">
-                        <img src="./assets/images/search-engine-optimization.jpg" class="float-left img-fluid rounded-start col-md-3" alt="Stock Image for search engine optimization. Image shows notebook with stationeries, laptop, notebook, and coffee." />
-                        <div class="col-md-9">
+                        <img src="./assets/images/search-engine-optimization.jpg" class="float-left img-fluid rounded-start col-md-4" alt="Stock Image for search engine optimization. Image shows notebook with stationeries, laptop, notebook, and coffee." />
+                        <div class="col-md-8">
                             <h2>Search Engine Optimization</h2>
                         <p>
                             The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
@@ -56,18 +63,18 @@
                     </section>
                     <br>
                     <section class="content-item row ">
-                        <div class="col-md-9">
+                        <div class="col-md-8">
                             <h2>Online Reputation Management</h2>
                         <p>
                             The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
                         </p>
                         </div>
-                        <img src="./assets/images/online-reputation-management.jpg" class="float-right img-fluid rounded-start col-md-3" alt="Stock image for online reputation. Image shows laptop with the word reputation flashed on screen." />
+                        <img src="./assets/images/online-reputation-management.jpg" class="float-right img-fluid rounded-start col-md-4" alt="Stock image for online reputation. Image shows laptop with the word reputation flashed on screen." />
                     </section>
                     <br>
                     <section class="content-item row">
-                        <img src="./assets/images/social-media-marketing.jpg" class="float-left img-fluid rounded-start col-md-3" alt="Stock image for social media marketing. Image shows table filled with text bubbles with different social media jargon."/>
-                        <div class="col-md-9">
+                        <img src="./assets/images/social-media-marketing.jpg" class="float-left img-fluid rounded-start col-md-4" alt="Stock image for social media marketing. Image shows table filled with text bubbles with different social media jargon."/>
+                        <div class="col-md-8">
                             <h2>Social Media Marketing</h2>
                         <p>
                             Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
@@ -76,8 +83,8 @@
                     </section>
         
                 </main>
-                <section class="benefits col-lg-2">
-                    <article class="benefit-lead">
+                <section class="benefits col-md-2">
+                    <article class="benefit-item benefit-lead">
                         <h3>Lead Generation</h3>
                         <img src="./assets/images/lead-generation.png" alt="Icon for Lead Generation"/>
                         <p>
@@ -85,7 +92,7 @@
                         </p>
                         <br>
                     </article>
-                    <article class="benefit-brand">
+                    <article class="benefit-item benefit-brand">
                         <h3>Brand Awareness</h3>
                         <img src="./assets/images/brand-awareness.png" alt="Icon for Brand Awareness"/>
                         <p>
@@ -93,7 +100,7 @@
                         </p>
                         <br>
                     </article>
-                    <article class="benefit-cost">
+                    <article class="benefit-item benefit-cost">
                         <h3>Cost Management</h3>
                         <img src="./assets/images/cost-management.png" alt="Icon for Cost Management"/>
                         <p>
@@ -104,12 +111,13 @@
                 </section>
             </div>
         </div>
-        
-        <footer>
-            <h2>Made with ❤️️ by Horiseon</h2>
-            <p>
-                &copy; 2019 Horiseon Social Solution Services, Inc.
-            </p>
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+                <h2>Made with ❤️️ by Horiseon</h2>
+                <p>
+                    &copy; 2019 Horiseon Social Solution Services, Inc.
+                </p>
+            </div>
         </footer>
     </body>
 </html>
