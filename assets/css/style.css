@@ -41,14 +41,20 @@
     max-width: 150px;
 }
 
+.mainBox {
+    justify-content: space-evenly;
+}
+
 .benefits {
     background-color:gray;
-    margin: 0px 10px 20px 10px;
+    /* margin: 0px 20px 20px 10px; */
+    clear: both;
+    padding: 0px 50px 10px 50px;
 }
 
 .content {
     background-color: blue;
-    margin: 0px 10px 20px 10px;
+    /* margin: 0px 10px 20px 20px; */
 }
 
 .content-item {
@@ -58,5 +64,18 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border: 1px solid yellow;
 }
 
+p {
+    font-size: 18px;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-item {
+    border: 2px solid white;
+}
